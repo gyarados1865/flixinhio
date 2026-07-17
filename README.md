@@ -6,18 +6,6 @@ A responsive movie and TV show streaming UI built with plain HTML, CSS, and Java
 
 Flixinhio is a front-end concept for a streaming platform inspired by the layout and browsing patterns of popular streaming services. It includes a mobile-first layout, a featured continue-watching section, tabbed browsing between TV shows and movies, and an interactive watchlist.
 
-## Screenshots
-
-These screenshots show the project in sequence:
-
-![Screenshot 1](project shots/1.png)
-
-![Screenshot 2](project shots/2.png)
-
-![Screenshot 3](project shots/3.png)
-
-![Screenshot 4](project shots/4.png)
-
 ## Features
 
 - Responsive layout with mobile-first design and clean breakpoints
