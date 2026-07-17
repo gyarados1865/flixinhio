@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flixinhio — Stream Something New</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container" aria-label="Primary">
+    <a href="#top" class="logo"><span class="dot"></span>Flixinhio</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#browse">Browse</a></li>
+      <li><a href="#watchlist">My List</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="cta-btn" id="ctaTop">Sign In</button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero container">
+    <div>
+      <h1>One home for every story <span>worth watching.</span></h1>
+      <p class="lead">Flixinhio brings films, series, and documentaries into one clean, fast interface — pick up right where you left off, on any screen.</p>
+      <div class="hero-actions">
+        <button class="cta-btn">Start Watching</button>
+        <button class="btn-outline">Browse Library</button>
+      </div>
+    </div>
+
+    <div class="feature-card" style="background:linear-gradient(155deg, rgba(24,24,24,0.78), rgba(14,14,14,0.82)), url('image/eps.jfif'); background-size:cover; background-position:center;">
+      <span class="badge">Continue Watching</span>
+      <div class="feature-card-overlay">
+        <button class="play-btn" aria-label="Play continue watching">
+          <span class="play-icon"></span>
+          Play
+        </button>
+      </div>
+      <h3>Game of Thrones</h3>
+      <p>S6 · Episode 4 — 12 min left</p>
+      <div class="scrubber"><div class="scrubber-fill"></div></div>
+    </div>
+  </section>
+
+
+  <section id="browse" class="container">
+    <div class="section-head">
+      <div>
+        <h2>Browse</h2>
+        <p class="section-subtitle">TV shows and movies in separate tabs.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Browse categories">
+        <button class="tab-btn active" type="button" role="tab" aria-selected="true" data-target="tab-shows">TV Shows</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-target="tab-movies">Movies</button>
+      </div>
+    </div>
+
+    <div id="tab-shows" class="tab-panel active" role="tabpanel">
+      <div class="poster-grid">
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/GOT.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Game of Thrones">+</button>
+          </div>
+          <div class="poster-body"><h3>Game of Thrones</h3><p>TV Show · 8 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/BS.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Black Sails">+</button>
+          </div>
+          <div class="poster-body"><h3>Black Sails</h3><p>TV Show · 4 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/MH.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Money Heist">+</button>
+          </div>
+          <div class="poster-body"><h3>Money Heist</h3><p>TV Show · 5 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/TLK.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="The Last Kingdom">+</button>
+          </div>
+          <div class="poster-body"><h3>The Last Kingdom</h3><p>TV Show · 5 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/hotd.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="House of the Dragon">+</button>
+          </div>
+          <div class="poster-body"><h3>House of the Dragon</h3><p>TV Show · 3 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/ST.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Stranger Things">+</button>
+          </div>
+          <div class="poster-body"><h3>Stranger Things</h3><p>TV Show · 4 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/dark.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="DARK">+</button>
+          </div>
+          <div class="poster-body"><h3>DARK</h3><p>TV Show · 3 Seasons</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/lost.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="LOST">+</button>
+          </div>
+          <div class="poster-body"><h3>LOST</h3><p>TV Show · 6 Seasons</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/PB.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Peaky Blinders">+</button>
+          </div>
+          <div class="poster-body"><h3>Peaky Blinders</h3><p>TV Show · 5 Seasons</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/W.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="The Witcher">+</button>
+          </div>
+          <div class="poster-body"><h3>The Witcher</h3><p>TV Show · 3 Seasons</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/WW.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Westworld">+</button>
+          </div>
+          <div class="poster-body"><h3>Westworld</h3><p>TV Show · 4 Seasons</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/V.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Vikings">+</button>
+          </div>
+          <div class="poster-body"><h3>Vikings</h3><p>TV Show · 6 Seasons</p></div>
+        </article>
+      </div>
+      <button class="see-more-btn" type="button" data-target="tab-shows" aria-expanded="false">See more</button>
+    </div>
+
+    <div id="tab-movies" class="tab-panel" role="tabpanel" hidden>
+      <div class="poster-grid">
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/INT.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Interstellar">+</button>
+          </div>
+          <div class="poster-body"><h3>Interstellar</h3><p>Sci-Fi · 2h 19m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/INC.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Inception">+</button>
+          </div>
+          <div class="poster-body"><h3>Inception</h3><p>Sci-Fi · 2h 28m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/SR.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Shawshank Redemption">+</button>
+          </div>
+          <div class="poster-body"><h3>Shawshank Redemption</h3><p>Drama · 2h 22m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/AVA.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Avatar">+</button>
+          </div>
+          <div class="poster-body"><h3>Avatar</h3><p>Sci-Fi · 2h 42m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/TTK.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="The Dark Knight">+</button>
+          </div>
+          <div class="poster-body"><h3>The Dark Knight</h3><p>Action · 2h 32m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/M.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="The Matrix">+</button>
+          </div>
+          <div class="poster-body"><h3>The Matrix</h3><p>Sci-Fi · 2h 16m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/D.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Dune">+</button>
+          </div>
+          <div class="poster-body"><h3>Dune</h3><p>Sci-Fi · 2h 35m</p></div>
+        </article>
+        <article class="poster">
+          <div class="poster-art" style="background-image:url('image/G.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Gladiator">+</button>
+          </div>
+          <div class="poster-body"><h3>Gladiator</h3><p>Drama · 2h 35m</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/lotr.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="The Lord of the Rings">+</button>
+          </div>
+          <div class="poster-body"><h3>The Lord of the Rings</h3><p>Fantasy · 3h 48m</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/T.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Tenet">+</button>
+          </div>
+          <div class="poster-body"><h3>Tenet</h3><p>Sci-Fi · 2h 30m</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/P.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Parasite">+</button>
+          </div>
+          <div class="poster-body"><h3>Parasite</h3><p>Thriller · 2h 12m</p></div>
+        </article>
+        <article class="poster hidden">
+          <div class="poster-art" style="background-image:url('image/J.jfif'); background-size:cover; background-position:center;">
+            <button class="watchlist-btn" data-title="Joker">+</button>
+          </div>
+          <div class="poster-body"><h3>Joker</h3><p>Drama · 2h 2m</p></div>
+        </article>
+      </div>
+      <button class="see-more-btn" type="button" data-target="tab-movies" aria-expanded="false">See more</button>
+    </div>
+  </section>
+
+  <section id="watchlist" class="container">
+    <div class="section-head">
+      <h2>Your Watchlist Counter</h2>
+    </div>
+    <div class="log-widget">
+      <span>Titles saved</span>
+      <span class="count" id="watchCount">0</span>
+      <p style="font-size:.8rem;color:#B7AFA5;">Tap the + on any poster above to add it here.</p>
+    </div>
+  </section>
+
+  
+  <section class="stats-band">
+    <div class="container">
+      <div class="stat"><strong>3,000+</strong><span>Titles</span></div>
+      <div class="stat"><strong>Every</strong><span>Genre</span></div>
+      <div class="stat"><strong>4K</strong><span>Streaming</span></div>
+      <div class="stat"><strong>Offline</strong><span>Downloads</span></div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="container">
+    <span>© 2026 Flixinhio. All titles are fictional demo content.</span>
+    <ul class="footer-links">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#browse">Browse</a></li>
+      <li><a href="#watchlist">My List</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
